@@ -33,7 +33,7 @@ $resultados = array_diff($resultados, array($dado_eliminar));
 //Muestro los resultados restantes:
 echo "<p>Resultados restantes:</p>";
 
-foreach ($resultados as $res) {
-    echo "<img src='imagenes/$res.svg'> ";
+foreach ($resultados as $resultado) {
+    echo "<img src='imagenes/$resultado.svg'> ";
 }
 ?>
