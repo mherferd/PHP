@@ -1,0 +1,15 @@
+{
+    "name": "daw_m/php",
+    "autoload": {
+        "psr-4": {
+            "DawM\\Php\\": "src/"
+        }
+    },
+    "scripts": {
+        "dev": "php index.php"
+    },
+    "require": {
+        "monolog/monolog": "^3.7",
+        "psr/http-message": "3.0"
+    }
+}

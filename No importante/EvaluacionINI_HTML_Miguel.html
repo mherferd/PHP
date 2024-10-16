@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>“Datos Personales</title>
+</head>
+<body>
+  <!-- Encabezado -->
+	<h1>Datos Personales</h1>
+
+
+  <!-- Formulario Datos Personales -->
+   <form action="datos_personales.php" method="post" >
+	<div class="cuadrotexto1">
+			<p>Nombre:<input type="text" id="Nombre"></p>
+			<p>Apellidos:<input type="text" id="Apellidos"></p>
+			<p>Contraseña:<input type="password" id="Clave"></p>
+	</div>
+	<div class="estacion">
+		<p>Estacion favorita del año:</p>
+		<input type="radio" id="Primavera">Primavera</input>
+		<input type="radio" id="Verano">Verano</input>
+		<input type="radio" id="Otoño">Otoño</input>
+		<input type="radio" id="Invierno">Invierno</input>
+
+	</div>
+	<div class="transporte">
+		<p>Medio de Transporte:</p>
+		<select id="medio">
+			<option id="0">Seleccione Transporte</option>
+			<option id="1">Autobús</option>
+			<option id="2">Bicicleta</option>
+			<option id="3">Metro</option>
+			<option id="4">Moto</option>
+			<option id="5">Patinete</option>
+			<option id="6">Tren</option>
+		</select>
+	</div>
+	<div class="aficiones">
+		<p>Aficiones:</p>
+		<input type="checkbox" name="hola" id="buenas">   Bailar
+		<br><input type="checkbox" name="hola" id="buenas">   Cantar
+		<br><input type="checkbox" name="hola" id="buenas">   Hacer Deporte
+		<br><input type="checkbox" name="hola" id="buenas">   Leer
+		<br><input type="checkbox" name="hola" id="buenas">   Ver Series
+		<br><input type="checkbox" name="hola" id="buenas">   Viajar
+	</div>
+	<div class="observaciones">
+		<p>Observaciones:</p>
+		<textarea rows="5" cols="50"></textarea>
+	</div>
+		<br>
+		<input type="reset" id="Nombre" value="Borrar">
+		<input type="submit" id="Nombre" value="Enviar">
+   </form>
+
+</body>
+</html>
