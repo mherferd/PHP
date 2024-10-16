@@ -8,7 +8,7 @@ foreach ($_REQUEST as $contador){
 
 
 //Y ahora imprimimos los datos invertidos
-echo "<br><br>Tus datos invertidos son: <br>";
+echo "<br><br>Tus datos invertidos son: <br><br>";
 
 $array_delreves = array_reverse($_REQUEST);
 echo "<br>";
