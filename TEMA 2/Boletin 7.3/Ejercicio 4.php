@@ -22,10 +22,18 @@ for ($i = 1; $i <= 6; $i++) {
 echo "<p>Dado a eliminar:</p>";
 
 $dado_eliminar = rand(1,6);
-echo "<img src='imagenes/$dado.svg'> ";
+echo "<img src='imagenes/$dado_eliminar.svg'> ";
 
 
 
 //Elimino del array de resultados el dado aleatorio y muestro los resultados restantes
+$resultados = array_diff($resultados, array($dado_eliminar));
 
+
+//Muestro los resultados restantes:
+echo "<p>Resultados restantes:</p>";
+
+foreach ($resultados as $res) {
+    echo "<img src='imagenes/$res.svg'> ";
+}
 ?>
