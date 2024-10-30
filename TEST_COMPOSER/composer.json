@@ -10,6 +10,10 @@
     },
     "require": {
         "monolog/monolog": "^3.7",
-        "psr/http-message": "3.0"
+        "psr/http-message": "3.0",
+        "nelexa/zip": "^4.0.2",
+        "fpdf/fpdf": "^1.86"
+
+
     }
 }
